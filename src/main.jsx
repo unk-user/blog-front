@@ -7,8 +7,7 @@ import About from './routes/About.jsx';
 import Blog from './routes/Blog.jsx';
 
 import './index.css';
-import Posts from './routes/Posts.jsx';
-
+import PostPage from './routes/PostPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,13 +20,13 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: '/Home',
-        element: <Blog />
+        path: '/Blog',
+        element: <Blog />,
       },
       {
-        path: '/Posts',
-        element: <Posts />
-      },
+        path: '/Blog/:id',
+        element: <PostPage/>
+      }
     ],
   },
 ]);
