@@ -1,0 +1,7 @@
+input {
+  @apply bg-transparent focus:outline-none 
+}
+
+label {
+  @apply border-b-2 py-2
+}

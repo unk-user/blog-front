@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section className="border-4 border-dashed border-primary border-opacity-20 px-6 pb-6 pt-2 text-accent">
+    <section className="border-dashed border-primary border-opacity-20 px-6 pb-6 pt-2 text-accent">
       <h2>Who Am I?</h2>
       <p>
         {
@@ -12,10 +12,7 @@ export default function About() {
       <h2>{"What's Here?"}</h2>
       <ul>
         <li>
-          <strong>Recent Posts:</strong> {"Find the latest content in 'blog'."}
-        </li>
-        <li>
-          <strong>Explore More:</strong> {"Go to 'posts' to read more."}
+          <strong>Explore Posts:</strong> {"Find recent content in 'blog'."}
         </li>
         <li>
           <strong>Authors:</strong> Authenticated authors can publish at{' '}

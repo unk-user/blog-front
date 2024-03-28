@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <article className='px-12 relative'>
+      <article className='px-10'>
         <Outlet />
       </article>
     </>
